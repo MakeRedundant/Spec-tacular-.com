@@ -78,7 +78,7 @@ function Footer() {
                     </Container>
                     <Link to="/">
                         <Text
-                            text="© 2022 Glasses Store. Todos os direitos reservados."
+                            text="© 2024 Spec-tacular.com Made by Brian Trang"
                             align="left"
                             color={colors.primary}
                             size="16px"
