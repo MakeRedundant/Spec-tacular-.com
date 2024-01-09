@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import * as S from "./styles";
 import BackgroundPaper from "../../components/BackgroundPaper";
 import Container from "../../components/Container";

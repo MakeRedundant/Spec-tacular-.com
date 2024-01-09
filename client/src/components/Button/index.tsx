@@ -13,8 +13,8 @@ interface IProps {
     height: string | number;
     border?: string;
     borderRadius?: string | number;
-    backgroundColor?: string;
-    color?: string;
+    background?: string;
+    ?: string;
     linkReference?: string;
     onclick?: () => void;
 }
@@ -24,13 +24,13 @@ function Button({
     margin,
     width,
     height,
-    backgroundColor,
+    background,
     fontSize = "14px",
     fontWeight,
     border,
     borderRadius,
     onclick,
-    color,
+    ,
     linkReference,
 }: IProps) {
     if (linkReference) {
@@ -41,7 +41,7 @@ function Button({
                     margin={margin || "auto"}
                     width={width}
                     height={height}
-                    backgroundColor={backgroundColor}
+                    background={background}
                     border={border || "none"}
                     borderRadius={borderRadius || "none"}
                     onClick={onclick}
@@ -50,7 +50,7 @@ function Button({
                         text={text}
                         size={fontSize}
                         weight={fontWeight || 300}
-                        color={color}
+                        ={}
                     />
                 </S.Button>
             </Link>
@@ -63,7 +63,7 @@ function Button({
             margin={margin || "auto"}
             width={width}
             height={height}
-            backgroundColor={backgroundColor}
+            background={background}
             border={border || "none"}
             borderRadius={borderRadius || "none"}
             onClick={onclick}
@@ -72,7 +72,7 @@ function Button({
                 text={text}
                 size={fontSize}
                 weight={fontWeight || 300}
-                color={color}
+                ={}
             />
         </S.Button>
     );
