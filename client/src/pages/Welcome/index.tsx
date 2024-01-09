@@ -99,9 +99,11 @@ export default function Welcome() {
                 mt: 2,
               }}
             >
-              <Button variant="outlined" color="primary" sx={{ mt: 1 }}>
-                I have a prescription
-              </Button>
+              <RouterLink to="/prescription" style={{ textDecoration: "none" }}>
+                <Button variant="outlined" color="primary" sx={{ mt: 1 }}>
+                  I have a prescription
+                </Button>
+              </RouterLink>
               <RouterLink to="/main" style={{ textDecoration: "none" }}>
                 <Button variant="outlined" color="secondary" sx={{ mt: 1 }}>
                   Buy Now

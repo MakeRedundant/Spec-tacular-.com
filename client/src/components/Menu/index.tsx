@@ -39,9 +39,9 @@ function Menu() {
                     />
                 </Link>
 
-                <Link to="/preferences">
+                <Link to="/prescription">
                     <Text
-                        text="Preferências"
+                        text="prescription"
                         weight={600}
                         color={colors.primary}
                     />

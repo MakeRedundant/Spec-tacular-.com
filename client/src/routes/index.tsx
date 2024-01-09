@@ -4,7 +4,7 @@ import AfterSales from "../pages/AfterSales";
 import Contact from "../pages/Contact";
 import ContactLenses from "../pages/ContactLenses";
 import Eyeglasses from "../pages/Eyeglasses";
-import Preferences from "../pages/Preferences";
+import Prescription from "../pages/Prescription";
 import Sunglasses from "../pages/Sunglasses";
 import Welcome from "../pages/Welcome";
 import Main from "../pages/Main";
@@ -26,7 +26,7 @@ function Router() {
 
             <Route path="/contact-lenses" element={<ContactLenses />} />
 
-            <Route path="/preferences" element={<Preferences />} />
+            <Route path="/prescription" element={<Prescription />} />
 
             <Route path="/contact" element={<Contact />} />
 
