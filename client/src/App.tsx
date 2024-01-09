@@ -1,32 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '../../public/vite.svg'
-import './App.css'
-
-import Landing from './pages/LandingPage/Landing.jsx';
+import Router from "./routes";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { reduxStore } from "./redux";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-      <Landing></Landing>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <Provider store={reduxStore}>
+            <BrowserRouter>
+                <Router />
+            </BrowserRouter>
+        </Provider>
+    );
 }
 
-export default App
+export default App;
