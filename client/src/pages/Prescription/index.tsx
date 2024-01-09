@@ -12,6 +12,8 @@ import Input from "../../components/Input";
 import Select from "../../components/Select";
 import PrescriptionTable from "../../components/PrescriptionTable";
 
+import { Link } from "react-router-dom";
+
 function Prescription() {
   return (
     <BackgroundPaper>
@@ -179,9 +181,9 @@ function Prescription() {
           </Container>
 
           <PrescriptionTable />
-
+          <Link to="/main">
           <Button
-            text="Consultar"
+            text="Check glasses"
             width="100%"
             height="50px"
             margin="50px auto 16px auto"
@@ -189,8 +191,8 @@ function Prescription() {
             fontSize="20px"
             color="#FFF"
             backgroundColor={colors.success}
-            linkReference="/main"
           />
+          </Link>
         </Container>
       </Container>
       <Footer />
