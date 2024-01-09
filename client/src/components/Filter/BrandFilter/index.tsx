@@ -15,7 +15,7 @@ function BrandFilter() {
         >
             <S.BrandFilter>
                 <Text
-                    text="Selecionar por marca:"
+                    text="Select by brand:"
                     size="18px"
                     weight={600}
                     color={colors.primary}

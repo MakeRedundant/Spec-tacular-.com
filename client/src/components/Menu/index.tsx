@@ -17,7 +17,7 @@ function Menu() {
             >
                 <Link to="/sunglasses">
                     <Text
-                        text="Óculos de Sol"
+                        text="Sunglasses"
                         weight={600}
                         color={colors.primary}
                     />
@@ -25,7 +25,7 @@ function Menu() {
 
                 <Link to="/eyeglasses">
                     <Text
-                        text="Óculos de Grau"
+                        text="Glasses"
                         weight={600}
                         color={colors.primary}
                     />
@@ -33,7 +33,7 @@ function Menu() {
 
                 <Link to="/contact-lenses">
                     <Text
-                        text="Lentes de Contato"
+                        text="Contact Lenses"
                         weight={600}
                         color={colors.primary}
                     />
@@ -41,7 +41,7 @@ function Menu() {
 
                 <Link to="/prescription">
                     <Text
-                        text="prescription"
+                        text="Prescription"
                         weight={600}
                         color={colors.primary}
                     />

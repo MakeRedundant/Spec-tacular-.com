@@ -87,7 +87,7 @@ function ColorFilter() {
         >
             <S.ColorFilter>
                 <Text
-                    text="Selecionar por cor:"
+                    text="Select by colour:"
                     size="18px"
                     weight={600}
                     color={colors.primary}

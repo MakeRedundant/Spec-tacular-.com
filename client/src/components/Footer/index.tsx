@@ -4,12 +4,10 @@ import colors from "../../styles/colors";
 import Text from "../Text";
 import IconContainer from "../IconContainer";
 import Container from "../Container";
-import { Link } from "react-router-dom";
 
 function Footer() {
     return (
       <S.Footer>
-        {/* Existing code */}
         <Container
           flex
           margin="50px auto"
@@ -20,7 +18,7 @@ function Footer() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/MakeRedundant" // Github
+            href="https://github.com/MakeRedundant"
           >
             <IconContainer
               className="fa fa-github"

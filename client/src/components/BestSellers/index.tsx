@@ -20,10 +20,10 @@ function Item(item: IItem) {
             width="calc(100% - 32px)"
             height="100%"
         >
-            <S.Image src={item.image} alt="Produto popular" />
+            <S.Image src={item.image} alt="Popular product" />
 
             <Button
-                text="Ver mais"
+                text="See more"
                 margin="8px auto"
                 width="95px"
                 height="30px"
