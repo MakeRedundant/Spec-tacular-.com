@@ -36,7 +36,7 @@ function Card(props: IGlasses) {
                     color={colors.text}
                 />
                 <Text
-                    text={`R$ ${props.price},99`}
+                    text={`AUD$ ${props.price},99`}
                     size="22px"
                     color={colors.text}
                 />
