@@ -1,8 +1,8 @@
-/* eslint-disable react/require-default-props */
 import React from "react";
 import * as S from "./styles";
 import Text from "../Text";
 import { Link } from "react-router-dom";
+
 
 interface IProps {
     text: string;
@@ -13,8 +13,8 @@ interface IProps {
     height: string | number;
     border?: string;
     borderRadius?: string | number;
-    background?: string;
-    ?: string;
+    backgroundColor?: string;
+    color?: string;
     linkReference?: string;
     onclick?: () => void;
 }
@@ -24,13 +24,13 @@ function Button({
     margin,
     width,
     height,
-    background,
+    backgroundColor,
     fontSize = "14px",
     fontWeight,
     border,
     borderRadius,
     onclick,
-    ,
+    color,
     linkReference,
 }: IProps) {
     if (linkReference) {
@@ -41,7 +41,7 @@ function Button({
                     margin={margin || "auto"}
                     width={width}
                     height={height}
-                    background={background}
+                    backgroundColor={backgroundColor}
                     border={border || "none"}
                     borderRadius={borderRadius || "none"}
                     onClick={onclick}
@@ -50,7 +50,7 @@ function Button({
                         text={text}
                         size={fontSize}
                         weight={fontWeight || 300}
-                        ={}
+                        color={color}
                     />
                 </S.Button>
             </Link>
@@ -63,7 +63,7 @@ function Button({
             margin={margin || "auto"}
             width={width}
             height={height}
-            background={background}
+            backgroundColor={backgroundColor}
             border={border || "none"}
             borderRadius={borderRadius || "none"}
             onClick={onclick}
@@ -72,7 +72,7 @@ function Button({
                 text={text}
                 size={fontSize}
                 weight={fontWeight || 300}
-                ={}
+                color={color}
             />
         </S.Button>
     );
