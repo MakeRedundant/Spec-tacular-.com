@@ -61,7 +61,7 @@ Glasses
  npm install
   
 ## 💬 Usage 
-sa
+use for fun
 
 
 ## 🖼️ Screenshot
