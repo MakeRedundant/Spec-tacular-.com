@@ -10,10 +10,12 @@ import BrandFilter from "../../components/Filter/BrandFilter";
 import ColorFilter from "../../components/Filter/ColorFilter";
 import { IGlasses } from "../../models/IGlasses";
 import BackgroundPaper from "../../components/BackgroundPaper";
+import Appbar from "../../components/Navbar/index";
 
 function Main() {
     return (
         <BackgroundPaper>
+             <Appbar/>
             <Header />
             <Menu />
             <S.Main>
