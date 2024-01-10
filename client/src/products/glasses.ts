@@ -9,7 +9,7 @@ const glasses: IGlasses[] = [
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
         brand: "Glasses Store",
         category: "Sunglasses",
-        color: "castanho",
+        color: "Brown",
         size: "1",
     },
     {
@@ -20,7 +20,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "castanho claro",
+        color: "Brown",
         size: "2",
     },
     {
@@ -31,7 +31,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Glasses Store",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "1",
     },
     {
@@ -42,7 +42,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Glasses Store",
         category: "Sunglasses",
-        color: "cinza",
+        color: "Gray",
         size: "2",
     },
     {
@@ -52,8 +52,8 @@ const glasses: IGlasses[] = [
         image: "data:image/png;base64,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",
         description: "",
         brand: "Oakley",
-        category: "Óculos de Grau",
-        color: "preto",
+        category: "Eyeglasses",
+        color: "Black",
         size: "1",
     },
     {
@@ -64,7 +64,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Chilli Beans",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "1",
     },
     {
@@ -75,7 +75,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Oakley",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "2",
     },
     {
@@ -86,7 +86,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "2",
     },
     {
@@ -97,7 +97,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "1",
     },
     {
@@ -108,7 +108,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "2",
     },
     {
@@ -119,7 +119,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "1",
     },
     {
@@ -130,7 +130,7 @@ const glasses: IGlasses[] = [
         description: "",
         brand: "Ray-Ban",
         category: "Sunglasses",
-        color: "preto",
+        color: "Black",
         size: "2",
     },
 ];
