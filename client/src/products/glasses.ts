@@ -6,7 +6,7 @@ const glasses: IGlasses[] = [
         name: "SKU: sc2202176860675773",
         price: 99,
         image: "https://img.ltwebstatic.com/images3_pi/2022/06/08/1654671143b0aa893d1dc5ca4f1dc9f0fe58ff45f7_thumbnail_600x.webp",
-        description: "",
+        description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
         brand: "Glasses Store",
         category: "Sunglasses",
         color: "castanho",
@@ -68,7 +68,7 @@ const glasses: IGlasses[] = [
         size: "1",
     },
     {
-        id: 6,
+        id: 7,
         name: "Matte Black Prizm",
         price: 680,
         image: "https://assets.oakley.com/is/image/OakleyEYE/7895653215801_latch_matte-black-prizm-violet_main_001.png?impolicy=OO_ratio&width=1000",
