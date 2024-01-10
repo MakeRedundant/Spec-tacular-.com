@@ -1,30 +1,83 @@
-# React + TypeScript + Vite
+# Spec-tacular E-Commerce
+![](https://forthebadge.com/images/badges/built-with-love.svg)
+![](https://forthebadge.com/images/badges/uses-html.svg)
+![](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![](https://forthebadge.com/images/badges/contains-cat-gifs.svg)
+![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
+![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+![Inquirer Version](https://img.shields.io/badge/Inquirer-8.2.4-blue.svg)
+![JavaScript Badge](https://img.shields.io/badge/JavaScript-100%25-yellow.svg)
+![File System](https://img.shields.io/badge/File%20System-Implemented-green.svg)
 
-Currently, two official plugins are available:
+## 📓 Table of Contents
+- [Spec-tacular E-Commerce](#spec-tacular-e-commerce)
+  - [📓 Table of Contents](#-table-of-contents)
+  - [💡🏡 Lighthouse](#-lighthouse)
+  - [📄 Description](#-description)
+  - [🪛 Technologies used](#-technologies-used)
+  - [🖥️ Installation](#️-installation)
+  - [💬 Usage](#-usage)
+  - [🖼️ Screenshot](#️-screenshot)
+  - [📹 Video](#-video)
+  - [⚖️ License](#️-license)
+  - [🤝 Contributing](#-contributing)
+  - [🛠️ Tests](#️-tests)
+  - [❔ Questions](#-questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡🏡 Lighthouse
+This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
-## Expanding the ESLint configuration
+## 📄 Description 
+Glasses
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🪛 Technologies used 
+| Technology              | Description                           | Link                                       |
+|-------------------------|---------------------------------------|--------------------------------------------|
+| Node.js                 | Server-side JavaScript runtime         | [Node.js](https://nodejs.org/)             |
+| NPM                     | Node.js Package Manager               | [NPM](https://www.npmjs.com/)             |
+| Font Awesome            | Icon set and toolkit                  | [Font Awesome](https://fontawesome.com/)   |
+| Font Awesome (React)    | Font Awesome for React components     | [Font Awesome (React)](https://fontawesome.com/) |
+| EmailJS                 | Email delivery service                 | [EmailJS](https://www.emailjs.com/)       |
+| EmailJS (Com)           | Email service for developers          | [EmailJS (Com)](https://www.emailjs.com/) |
+| React                   | JavaScript library for building UIs   | [React](https://reactjs.org/)             |
+| React DOM               | React rendering for the DOM           | [React DOM](https://reactjs.org/)         |
+| React Icons             | SVG icon library for React            | [React Icons](https://react-icons.github.io/react-icons/) |
+| React Simple Typewriter | React component for typewriter effect | [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter) |
+| Semantic UI CSS         | Front-end framework                   | [Semantic UI CSS](https://semantic-ui.com/) |
+| Semantic UI React       | React integration for Semantic UI      | [Semantic UI React](https://react.semantic-ui.com/) |
+| SweetAlert2             | Alert library for JavaScript          | [SweetAlert2](https://sweetalert2.github.io/) |
+| Vite (Plugin React)     | Vite plugin for React apps            | [Vite (Plugin React)](https://github.com/vitejs/vite) |
+| ESLint                  | JavaScript linter                     | [ESLint](https://eslint.org/)             |
+| ESLint (Plugin React)   | ESLint plugin for React               | [ESLint (Plugin React)](https://eslint.org/) |
+| ESLint (Plugin React Hooks) | ESLint plugin for React Hooks      | [ESLint (Plugin React Hooks)](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
+| ESLint (Plugin React Refresh) | ESLint plugin for React Refresh  | [ESLint (Plugin React Refresh)](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
+| Vite                    | Frontend build tool                   | [Vite](https://vitejs.dev/)               |
+| Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
+  
+    
+## 🖥️ Installation 
+ npm install
+  
+## 💬 Usage 
+sa
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🖼️ Screenshot
+![Alt Text] (![Alt Text] (./assets/gif/your Gif here))
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## 📹 Video
+  
+## ⚖️ License 
+This project is licensed under MIT
+  
+## 🤝 Contributing 
+N/A
+  
+## 🛠️ Tests
+N/A
+ 
+## ❔ Questions
+If you have any questions about this project, please contact me directly at brian.trang9@gmail.com. Feel free to view more of my projects at https://github.com/Makeredundant.
