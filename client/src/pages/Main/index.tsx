@@ -17,7 +17,7 @@ function Main() {
   return (
     <BackgroundPaper>
       <Appbar />
-      <Header />
+      {/* <Header /> */}
       <Banner />
       <Menu />
       <S.Main>
