@@ -65,7 +65,6 @@ export default function AppbarDesktop({ matches }) {
           <ListItemText primary="Contact us" />
         </Link>
         <ListItemButton onClick={() => setShowSearchBox(true)}>
-          {/* Your existing code for ListItemIcon */}
         </ListItemButton>
       </MyList>
       <Actions matches={matches} />

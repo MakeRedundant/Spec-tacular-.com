@@ -21,11 +21,11 @@ function Main() {
       <Banner />
       <Menu />
       <S.Main>
-        <S.Aside>
+        {/* <S.Aside>
           <BrandFilter />
           <ColorFilter />
           <BestSellers />
-        </S.Aside>
+        </S.Aside> */}
         <S.Section>
           <S.ProductsList>
             {products.map((product: IGlasses) => {
