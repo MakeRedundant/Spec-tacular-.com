@@ -37,7 +37,7 @@ function Contact() {
                         isHoverable={false}
                     />
                     <Text
-                        text="Contato"
+                        text="Contact"
                         size="40px"
                         weight={600}
                         align="center"
@@ -53,7 +53,7 @@ function Contact() {
                     <Container flex>
                         <S.FormControl>
                             <Text
-                                text="Nome:"
+                                text="Name:"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -69,7 +69,7 @@ function Contact() {
                         </S.FormControl>
                         <S.FormControl>
                             <Text
-                                text="Sobrenome:"
+                                text="Surname:"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -104,7 +104,7 @@ function Contact() {
                         </S.FormControl>
                         <S.FormControl>
                             <Text
-                                text="Telefone:"
+                                text="Telephone:"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -121,7 +121,7 @@ function Contact() {
                     </Container>
 
                     <Button
-                        text="Próxima Etapa"
+                        text="Next"
                         width="100%"
                         height="50px"
                         margin="50px auto 16px auto"
