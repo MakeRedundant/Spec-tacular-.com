@@ -11,10 +11,9 @@ import Button from "../../components/Button";
 
 function AfterSales() {
     const text =
-        "Sua compra foi concluída e a entrega esta prevista para daqui 3 dias.";
+        "Your purchase has been completed";
     const text1 =
-        "A Glasses Store agradece novamente pela sua preferencia e confiança. Qualquer dúvida entre em contato com o nosso time de suporte pelo email suporte@glasses.store.com";
-
+    "Thanks you again for your purchase and trust. If you have any questions, please contact our support team by email at support@glasses.store.com";
     return (
         <BackgroundPaper>
             <Header />
@@ -35,7 +34,7 @@ function AfterSales() {
                         isHoverable={false}
                     />
                     <Text
-                        text="Muito obrigado!"
+                        text="Thank you very much!"
                         size="50px"
                         weight={600}
                         align="center"
@@ -61,13 +60,13 @@ function AfterSales() {
                 >
                     <S.Action>
                         <Text
-                            text="Continue comprando"
+                            text="Continue shopping"
                             size="25px"
                             weight={600}
                             color={colors.primary}
                         />
                         <Button
-                            text="Continuar comprando"
+                            text="Continue"
                             margin="30px auto"
                             width="calc(100% - 32px)"
                             height="100px"
@@ -79,13 +78,13 @@ function AfterSales() {
 
                     <S.Action>
                         <Text
-                            text="Acompanhe seu Pedido"
+                            text="Track Order"
                             size="25px"
                             weight={600}
                             color={colors.primary}
                         />
                         <Button
-                            text="Acompanhar pedido"
+                            text="Track"
                             margin="30px auto"
                             width="calc(100% - 32px)"
                             height="100px"
@@ -96,7 +95,7 @@ function AfterSales() {
                     </S.Action>
                     <S.Action>
                         <Text
-                            text="Siga-nos nas redes sociais"
+                            text="Check out our socials"
                             size="25px"
                             weight={600}
                             color={colors.primary}
