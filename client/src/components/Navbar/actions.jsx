@@ -3,7 +3,7 @@ import { ActionIconsContainerDesktop, ActionIconsContainerMobile, MyList } from 
 import PersonIcon from "@mui/icons-material/Person";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { Colors } from "../../styles/theme";
+import { Colors } from "../../styles/theme/index";
 
 export default function Actions({ matches }) {
 
