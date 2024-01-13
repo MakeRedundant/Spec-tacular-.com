@@ -37,7 +37,7 @@ function Payment() {
                         isHoverable={false}
                     />
                     <Text
-                        text="Pagamento"
+                        text="Payment"
                         size="40px"
                         weight={600}
                         align="center"
@@ -53,7 +53,7 @@ function Payment() {
                 >
                     <S.FormControl width="calc(100% - 16px)">
                         <Text
-                            text="Número do Cartão"
+                            text="Card number"
                             size="18px"
                             color={colors.primary}
                         />
@@ -71,7 +71,7 @@ function Payment() {
                     <Container flex>
                         <S.FormControl width="calc(70% - 16px)">
                             <Text
-                                text="Validade"
+                                text="Validate"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -104,7 +104,7 @@ function Payment() {
 
                     <S.FormControl width="calc(100% - 16px)">
                         <Text
-                            text="Nome do Títular"
+                            text="Cardholder Name"
                             size="18px"
                             color={colors.primary}
                         />
@@ -120,7 +120,7 @@ function Payment() {
                     </S.FormControl>
 
                     <Button
-                        text="Concluir Compra"
+                        text="Complete Purchase"
                         width="100%"
                         height="50px"
                         margin="50px auto 16px auto"

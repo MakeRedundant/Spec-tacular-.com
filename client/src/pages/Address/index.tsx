@@ -37,7 +37,7 @@ function Address() {
                         isHoverable={false}
                     />
                     <Text
-                        text="Endereço"
+                        text="Address"
                         size="40px"
                         weight={600}
                         align="center"
@@ -52,7 +52,7 @@ function Address() {
                     direction="column"
                 >
                     <S.FormControl width="calc(100% - 16px)">
-                        <Text text="CEP" size="18px" color={colors.primary} />
+                        <Text text="ZIP Code" size="18px" color={colors.primary} />
                         <Input
                             id="cep"
                             outlined="none"
@@ -67,7 +67,7 @@ function Address() {
                     <Container flex>
                         <S.FormControl>
                             <Text
-                                text="Estado"
+                                text="State"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -84,7 +84,7 @@ function Address() {
 
                         <S.FormControl>
                             <Text
-                                text="Cidade"
+                                text="City"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -101,7 +101,7 @@ function Address() {
                     </Container>
 
                     <S.FormControl width="calc(100% - 16px)">
-                        <Text text="Rua" size="18px" color={colors.primary} />
+                        <Text text="Street" size="18px" color={colors.primary} />
                         <Input
                             id="street"
                             outlined="none"
@@ -115,7 +115,7 @@ function Address() {
                     <Container flex>
                         <S.FormControl width="calc(50% - 16px)">
                             <Text
-                                text="Bairro"
+                                text="Suburb"
                                 size="18px"
                                 color={colors.primary}
                             />
@@ -145,25 +145,10 @@ function Address() {
                             />
                         </S.FormControl>
 
-                        <S.FormControl width="calc(30% - 16px)">
-                            <Text
-                                text="Complemento"
-                                size="18px"
-                                color={colors.primary}
-                            />
-                            <Input
-                                id="complement"
-                                outlined="none"
-                                height="30px"
-                                type="text"
-                                border="none"
-                                borderBottom={`1px solid ${colors.primary}`}
-                            />
-                        </S.FormControl>
                     </Container>
 
                     <Button
-                        text="Próxima Etapa"
+                        text="Next Step"
                         width="100%"
                         height="50px"
                         margin="50px auto 16px auto"
