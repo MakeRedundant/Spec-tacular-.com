@@ -31,7 +31,7 @@ WORK IN PROGRESS
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
 ## 📄 Description 
-Glasses
+Glasses store
 
 ## 🪛 Technologies used 
 | Technology              | Description                           | Link                                       |
