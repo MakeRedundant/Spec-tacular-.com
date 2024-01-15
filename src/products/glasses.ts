@@ -7,7 +7,7 @@ const glasses: IGlasses[] = [
         price: 99,
         image: "https://img.ltwebstatic.com/images3_pi/2022/06/08/1654671143b0aa893d1dc5ca4f1dc9f0fe58ff45f7_thumbnail_600x.webp",
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magnaTorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        brand: "Glasses Store",
+        brand: "Unbranded",
         category: "Sunglasses",
         color: "Brown",
         size: "1",
