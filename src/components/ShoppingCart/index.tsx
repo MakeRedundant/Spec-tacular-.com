@@ -39,7 +39,7 @@ function ShoppingCart(props: IShoppingCartProps) {
                         margin="0 20px 0 0"
                     />
                     <Text
-                        text="Meu carrinho"
+                        text="Cart"
                         size="24px"
                         color={colors.primary}
                     />
@@ -67,7 +67,7 @@ function ShoppingCart(props: IShoppingCartProps) {
                             return (
                                 <Text
                                     key="1"
-                                    text="Sem produtos no carrinho.."
+                                    text="There are no products.."
                                 />
                             );
                         }
@@ -116,7 +116,7 @@ function ShoppingCart(props: IShoppingCartProps) {
                                         height="20px"
                                     >
                                         <Text
-                                            text="Quantidade: 1"
+                                            text="Amount: 1"
                                             color={colors.primary}
                                             size="18px"
                                         />
@@ -154,13 +154,13 @@ function ShoppingCart(props: IShoppingCartProps) {
                             color={colors.primary}
                         />
                         <Text
-                            text="R$ 135,00"
+                            text="AUD$ 135.00"
                             size="20px"
                             color={colors.primary}
                         />
                     </Container>
                     <Button
-                        text="Finalizar Compra"
+                        text="Finalise Purchase"
                         width="400px"
                         height="50px"
                         margin="50px 0 16px 0"
