@@ -1,4 +1,5 @@
-# Spec-tacular E-Commerce
+# Spec-tacular E-Commerce  
+WORK IN PROGRESS
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![](https://forthebadge.com/images/badges/uses-html.svg)
 ![](https://forthebadge.com/images/badges/made-with-javascript.svg)
