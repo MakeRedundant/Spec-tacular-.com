@@ -1,5 +1,5 @@
-import React from "react";
-import { Button, Typography, useMediaQuery } from "@mui/material";
+// import React from "react";
+import { Typography } from "@mui/material";
 import { useTheme } from "@mui/system";
 import {
   BannerContainer,
@@ -8,13 +8,13 @@ import {
   BannerImage,
   BannerShopButton,
   BannerTitle,
-} from "../../styles/banner";
+} from "../../styles/banner/index.js";
 
 import Bannerimg from "../../assets/images/generic.jpeg";
 
 export default function Banner() {
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.down("md"));
+  // const matches = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <BannerContainer >

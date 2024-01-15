@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import * as S from "./styles";
 
 interface IProps {
@@ -19,5 +19,4 @@ function BackgroundPaper({
 		</S.Background>
 	);
 }
-
 export default BackgroundPaper;
