@@ -121,7 +121,7 @@ function ShoppingCart(props: IShoppingCartProps) {
                                             size="18px"
                                         />
                                         <Text
-                                            text={`R$ ${product.price}`}
+                                            text={`AUD$ ${product.price}`}
                                             color={colors.primary}
                                             size="20px"
                                         />
