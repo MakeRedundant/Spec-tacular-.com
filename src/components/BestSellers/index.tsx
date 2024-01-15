@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import colors from "../../styles/colors";
 import * as S from "./styles";
 import Carousel from "react-material-ui-carousel";

@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 // import colors from "../../styles/colors";
 import Input from "../Input";
-import Text from "../Text";
+// import Text from "../Text";
 import * as S from "./styles";
 
 function PrescriptionTable() {
@@ -10,8 +10,9 @@ function PrescriptionTable() {
       <tbody>
         {/* Near */}
         <tr>
-          <th colSpan="4">Near</th>
+          <th colSpan={4}>Near</th>
         </tr>
+
         <tr>
           <th></th>
           <th>SPH</th>
@@ -28,7 +29,6 @@ function PrescriptionTable() {
               height="20px"
               border="bottom"
               align
-              
             />
           </td>
           <td>
@@ -88,7 +88,7 @@ function PrescriptionTable() {
 
         {/* Distance */}
         <tr>
-          <th colSpan="4">Distance</th>
+          <th colSpan={4}>Distance</th>
         </tr>
         <tr>
           <th></th>
@@ -203,4 +203,3 @@ function PrescriptionTable() {
 }
 
 export default PrescriptionTable;
-

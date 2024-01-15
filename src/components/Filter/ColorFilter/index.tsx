@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import * as S from "./styles";
 import colors from "../../../styles/colors";
 import Text from "../../Text";

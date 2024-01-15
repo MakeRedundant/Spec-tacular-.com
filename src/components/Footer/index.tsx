@@ -1,8 +1,8 @@
-import React from "react";
-import * as S from "./styles";
-import colors from "../../styles/colors";
-import Text from "../Text";
-import IconContainer from "../IconContainer";
+// import React from "react";
+// import * as S from "./styles";
+// import colors from "../../styles/colors";
+// import Text from "../Text";
+// import IconContainer from "../IconContainer";
 
 import { Box } from "@mui/system";
 import { Colors } from "../../styles/theme/index";
@@ -19,7 +19,6 @@ import {
   Typography,
   Button,
   Stack,
-  Container,
 } from "@mui/material";
 
 export default function Footer() {
@@ -37,7 +36,7 @@ export default function Footer() {
       <Grid container spacing={2} justifyContent="center">
         <Grid item md={6} lg={4}>
           <FooterTitle variant="body1">About us</FooterTitle>
-          <Typography variant="caption2">
+          <Typography variant="body1">
             Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm tempor
             incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud.
@@ -57,22 +56,22 @@ export default function Footer() {
           <FooterTitle variant="body1">information</FooterTitle>
           <List>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 About Us
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 Order Tracking
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 Privacy &amp; Policy
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 Terms &amp; Conditions
               </Typography>
             </ListItemText>
@@ -82,22 +81,22 @@ export default function Footer() {
           <FooterTitle variant="body1">my account</FooterTitle>
           <List>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 Login
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 My Cart
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 My Account
               </Typography>
             </ListItemText>
             <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
+              <Typography lineHeight={2} variant="h6">
                 Wishlist
               </Typography>
             </ListItemText>
