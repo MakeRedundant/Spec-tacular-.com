@@ -1,5 +1,6 @@
 # Spec-tacular E-Commerce  
 WORK IN PROGRESS
+This is my E-Commerce web application and first attempt at building a vite build typescript project
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![](https://forthebadge.com/images/badges/uses-html.svg)
 ![](https://forthebadge.com/images/badges/made-with-javascript.svg)
