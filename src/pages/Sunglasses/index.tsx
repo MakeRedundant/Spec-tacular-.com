@@ -1,13 +1,13 @@
-import React from "react";
+// import React from "react";
 import * as S from "./styles";
 import products from "../../products/glasses";
-import BestSellers from "../../components/BestSellers";
+// import BestSellers from "../../components/BestSellers";
 import Card from "../../components/Card";
-import Header from "../../components/Header";
+// import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
-import BrandFilter from "../../components/Filter/BrandFilter";
-import ColorFilter from "../../components/Filter/ColorFilter";
+// import BrandFilter from "../../components/Filter/BrandFilter";
+// import ColorFilter from "../../components/Filter/ColorFilter";
 import { IGlasses } from "../../models/IGlasses";
 import BackgroundPaper from "../../components/BackgroundPaper";
 import Appbar from "../../components/Navbar/index";

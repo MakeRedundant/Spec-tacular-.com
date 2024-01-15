@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import * as S from "./styles";
 import products from "../../products/glasses";
 import BestSellers from "../../components/BestSellers";
@@ -12,13 +12,13 @@ import { IGlasses } from "../../models/IGlasses";
 import BackgroundPaper from "../../components/BackgroundPaper";
 
 /*MUI styles */
-import { Box, Button, Container, Grid } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
-import { useMediaQuery } from "@mui/material";
+import { Container, Grid } from "@mui/material";
+// import { useTheme } from "@mui/material/styles";
+// import { useMediaQuery } from "@mui/material";
 
 function Eyeglasses() {
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.down("md"));
+  // const theme = useTheme();
+  // const matches = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <BackgroundPaper>
       <Header />

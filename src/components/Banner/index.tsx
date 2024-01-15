@@ -1,6 +1,6 @@
 // import React from "react";
 import { Typography } from "@mui/material";
-import { useTheme } from "@mui/system";
+// import { useTheme } from "@mui/system";
 import {
   BannerContainer,
   BannerContent,
@@ -13,7 +13,7 @@ import {
 import Bannerimg from "../../assets/images/generic.jpeg";
 
 export default function Banner() {
-  const theme = useTheme();
+  // const theme = useTheme();
   // const matches = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
@@ -25,7 +25,7 @@ export default function Banner() {
           New Glasses
         </BannerTitle>
 
-        <BannerDescription variant="subtitle">
+        <BannerDescription variant="h6">
           Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
           tempor incididunt ut labore et dolore magna
         </BannerDescription>

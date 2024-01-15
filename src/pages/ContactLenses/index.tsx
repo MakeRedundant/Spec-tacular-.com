@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import * as S from "./styles";
 import products from "../../products/glasses";
 import BestSellers from "../../components/BestSellers";
